@@ -39,4 +39,6 @@ while True:
         sair = input("deseja continuar? Digite N ou nao para sair").lower().startswith("n")
         if sair is True:
             print("até mais")
-        break
+            break
+        else:
+            continue
